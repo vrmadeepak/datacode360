@@ -1157,7 +1157,7 @@ select {
 
 @media (max-width: 767px) {
 	.course-tab .tab-padding .tab-header span {
-		font-size: 43px;
+		font-size: 40px;
 		width: 55px;
 	}
 }
@@ -18436,4 +18436,31 @@ flip course
 
 .checkbox-slider--b-flat input + span:before {
 	box-shadow: none;
+}
+
+.course-fee {
+	border: 1px solid;
+	padding: 32px;
+}
+
+@media (max-width: 576px){
+	.course-fee {
+		margin: 24px;
+		margin-bottom: 0;
+	}
+}
+
+ul#payment-points {
+	list-style: none;
+	padding-left: 0;
+}
+
+ul#payment-points>li:before{
+	content: '✓';
+	color: greenyellow;
+	margin-right: 12px;
+}
+
+ul#nested-payment-points {
+	margin-left: 24px;
 }
