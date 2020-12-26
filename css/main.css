@@ -18464,3 +18464,14 @@ ul#payment-points>li:before{
 ul#nested-payment-points {
 	margin-left: 24px;
 }
+
+.branding img {
+	max-width: 150%!important;
+}
+
+@media(max-width: 1199px) {
+	.branding img {
+		padding: 8px 0;
+		max-width: 75%!important;
+	}
+}
