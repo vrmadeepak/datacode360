@@ -18497,3 +18497,14 @@ ul.industry-experts li{
 		margin-top: 32px;
 	}
 }
+
+.footer-p {
+	color: rgba(255, 255, 255, 0.5)!important;
+}
+.footer-p a {
+	color: rgba(255, 255, 255, 0.5)!important;
+}
+
+.footer-p a:hover {
+	color: #f1f1f1!important;
+}
