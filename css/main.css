@@ -18475,3 +18475,25 @@ ul#nested-payment-points {
 		max-width: 75%!important;
 	}
 }
+
+ul.industry-experts{
+	padding-left: 0;
+	border-top: 1px solid;
+	padding-top: 16px;
+}
+ul.industry-experts li{
+	display: inline-block;
+	max-width: 120px;
+}
+
+@media(max-width: 992px){
+	ul.industry-experts li{
+		max-width: 100px;
+	}
+	.display-small-none {
+		display: none;
+	}
+	.course-enroll-points {
+		margin-top: 32px;
+	}
+}

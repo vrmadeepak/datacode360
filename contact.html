@@ -87,65 +87,41 @@
 					<div class="row c-mb-40 c-mb-md-0 text-center text-md-left">
 						<div class="col-md-6 col-lg-3">
 							<div class="media contact-icon">
-								<div class="icon-styled color-main fs-52">
-									<i class="fa fa-map-marker"></i>
-								</div>
+								<div class="icon-styled color-main fs-52"><i class="fa fa-map-marker"></i></div>
 
 								<div class="media-body">
-									<h6 class="fw-700">
-										Location
-									</h6>
-									<p>
-										New Delhi India
-									</p>
+									<h6 class="fw-700">Location</h6>
+									<p>New Delhi India</p>
 								</div>
 							</div>
 						</div>
 						<div class="col-md-6 col-lg-3">
 							<div class="media contact-icon">
-								<div class="icon-styled color-main fs-52">
-									<i class="fa fa-phone"></i>
-								</div>
+								<div class="icon-styled color-main fs-52"><i class="fa fa-phone"></i></div>
 
 								<div class="media-body">
-									<h6 class="fw-700">
-										Phone
-									</h6>
-									<p>
-										<a href="tel:9899979040">Tel.: +91-9899979040</a>
-									</p>
+									<h6 class="fw-700">Phone</h6>
+									<p><a href="tel:9899979040">Tel.: +91-9899979040</a></p>
 								</div>
 							</div>
 						</div>
 						<div class="col-md-6 col-lg-3">
 							<div class="media contact-icon">
-								<div class="icon-styled color-main fs-52">
-									<i class="fa fa-instagram"></i>
-								</div>
+								<div class="icon-styled color-main fs-52"><i class="fa fa-instagram"></i></div>
 
 								<div class="media-body">
-									<h6 class="fw-700">
-										Instagram
-									</h6>
-									<p>
-										@handler
-									</p>
+									<h6 class="fw-700">Instagram</h6>
+									<p>@handler</p>
 								</div>
 							</div>
 						</div>
 						<div class="col-md-6 col-lg-3">
 							<div class="media contact-icon">
-								<div class="icon-styled color-main fs-52">
-									<i class="fa fa-envelope"></i>
-								</div>
+								<div class="icon-styled color-main fs-52"><i class="fa fa-envelope"></i></div>
 
 								<div class="media-body">
-									<h6 class="fw-700">
-										E-mail
-									</h6>
-									<p>
-										<a href="mailto:support@datacode360.com" >support@datacode360.com</a>
-									</p>
+									<h6 class="fw-700">E-mail</h6>
+									<p><a href="mailto:support@datacode360.com" >support@datacode360.com</a></p>
 								</div>
 							</div>
 						</div>
@@ -154,17 +130,18 @@
 				</div>
 			</section>
 
-			<!-- Question Form -->
+			<!-- Contact Form -->
 			<section class="ls s-py-60 s-pt-lg-95 s-pb-lg-100 c-gutter-60 container-px-30">
 				<div class="container">
 					<div class="row">
 
 						<div class="col-lg-8 offset-lg-2 animate" data-animation="scaleAppear">
 
-							<h6 class="special-heading fw-300 text-center">Empower Yourself</h6>
-							<h2 class="text-center">Ask question</h2>
+							<h6 class="special-heading fw-300 text-center">need help</h6>
+							<h2 class="text-center">Get in Touch</h2>
 
-							<form class="contact-form c-mb-10 c-gutter-10" method="post" action="/">
+							<!-- <form class="contact-form c-mb-10 c-gutter-10" method="post" action="/"> -->
+							<form class="contact-form c-mb-10 c-gutter-10" onsubmit="subimtForm()">
 								<div class="row">
 									<div class="col-sm-6">
 										<div class="form-group has-placeholder">
@@ -209,36 +186,35 @@
 									</div>
 								</div>
 							</form>
+							<script type="text/javascript">
+								const submitForm = (e) => {
+									e.preventDefault();
+									console.log('submitted')
+								}
+							</script>
 						</div>
 						<!--.col-* -->
 					</div>
 				</div>
 			</section>
 
-			<section>
+			<!-- <section>
 				<div class="container-fluid">
 					<div class="row">
 						<div class="col-sm-12">
 							<div class="ls ms page_map" data-draggable="true" data-scrollwheel="true">
 								<div class="marker">
-									<div class="marker-address">sydney, australia, Liverpool street, 2</div>
+									<div class="marker-address">New Delhi, India</div>
 									<div class="marker-title">Fourth Marker</div>
 									<div class="marker-description">
-										<p><strong>Sydney, Australia, Liverpool Street, 2</strong>.<br>
-											Lorem ipsum dolor sit amet,
-											consectetur adipisicing elit. Aliquid cumque,
-											deserunt dolor.
-										</p>
-									</div>
-									<img class="marker-icon" src="images/map_marker_icon.png" alt="">
-								</div>
-								<!-- .marker -->
+										<p><strong>Address</strong>.<br>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid cumque, deserunt dolor.</p>
+									</div><img class="marker-icon" src="images/map_marker_icon.png" alt=""></div>
 							</div>
 
 						</div>
 					</div>
 				</div>
-			</section>
+			</section> -->
 
 
 			<section class="page_copyright ds ms s-py-5">
