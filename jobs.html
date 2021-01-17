@@ -6,7 +6,7 @@
 <html class="no-js">
 <!--<![endif]-->
 <head>
-	<title>About Us | DataCode360</title>
+	<title>Jobs | DataCode360</title>
 	<meta charset="utf-8">
 	<!--[if IE]>
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -31,6 +31,42 @@
 	<!--[if lt IE 9]>
 		<div class="bg-danger text-center">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/" class="color-main">upgrade your browser</a> to improve your experience.</div>
 	<![endif]-->
+	<div class="modal fade login-form text-center" id="form1" tabindex="-1" role="dialog" aria-labelledby="formlogin" aria-hidden="true">
+		<div class="modal-dialog ls">
+			<div class="modal-content">
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					<span aria-hidden="true" id='close-form'>×</span>
+				</button>
+				<div class="modal-body">
+					<div class="form-title">
+						<h2>Log In</h2>
+						<p>Log in to save your progress and obtain a certificate</p>
+					</div>
+					<form id="login_form">
+						<div class="form-group has-placeholder">
+							<label for="email-logn">Email:</label>
+							<input type="email" class="form-control" id="email-logn" placeholder="Your email adress" name="email-logn">
+						</div>
+						<div class="form-group has-placeholder">
+							<label for="password-login">Password:</label>
+							<input type="password" class="form-control" id="password-login" placeholder="Password" name="password">
+						</div>
+						<!-- <div class="form-check">
+							<input class="form-check-input" type="checkbox" id="remember">
+							<label class="form-check-label" for="remember">
+								Keep me logged in
+							</label>
+						</div> -->
+						<button class="btn btn-maincolor log-btn">Log in</button>
+					</form>
+					<div class="text-danger" id="form_error"></div>
+					<div class="modal-footer">
+						Dont have an account? &nbsp;<a href="pricing.html" class="btn-sign"> Enroll Now</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
 
 	<div id="canvas">
 		<div id="box_wrapper">
@@ -42,13 +78,14 @@
 						<div class="col-md-10 col-7"></div>
 						<div class="col-md-2 col-5">
 							<div class="top-includes main-includes">
-								<li class="job-active"><a href="jobs.html">Jobs</a></li>
+                                <!-- <button type="button" class="sign-btn-form" data-toggle="modal" data-target="#form2"><i class="fw-900 s-16 fa fa-sign-in" aria-hidden="true"></i>Sign Up</button> -->
+                                    <li class="job-active"><a href="jobs.html">Jobs</a></li>
 							</div>
 						</div>
 					</div>
 				</div>
 			</section>
-			<div class="header_absolute ds s-parallax s-overlay">
+			<div class="header_absolute ds s-parallax title-jobs s-overlay">
 
 				<header class="page_header ds justify-nav-center s-borderbottom container-px-20">
 					<div class="container">
@@ -69,7 +106,6 @@
 											</li>
 											<li><a href="pricing.html">Enroll</a></li>
 											<li><a href="careers.html">Careers</a></li>
-											<li class="active"><a href="about.html">About</a></li>
 											<li><a href="contact.html">Contact</a></li>
 										</ul>
 									</nav>
@@ -93,7 +129,7 @@
 						<div class="row">
 
 							<div class="col-md-12">
-								<h1>About Us</h1>
+								<h1>Jobs</h1>
 							</div>
 
 						</div>
@@ -107,14 +143,14 @@
 					<div class="row align-items-center">
 						<div class="col-12 col-lg-5">
 							<div class="about-image">
-								<img src="images/logo.png" alt="">
+								<img src="images/logo-st-datacode1.png" alt="">
 							</div>
 							<div class="divider-30 d-block d-lg-none"></div>
 						</div>
 						<div class="col-12 col-lg-7">
 							<div class="item-content">
-								<h6 class="special-heading fw-300">Empower Yourself</h6>
-								<h2>About us</h2>
+								<h6 class="special-heading fw-300">get your dream job with</h6>
+								<h2>DataCode360</h2>
 								<div class="d-none d-lg-block divider-35"></div>
 								<div class="row c-gutter-25">
 									<div class="divider-15 d-block d-lg-none"></div>
@@ -123,7 +159,7 @@
 									</div>
 									<div class="col-md-6">
 										<h6 class="fw-700">
-											Technology
+											Data Scientist
 										</h6>
 										<p>
 											Nonumy eirmod por invidunt labore dolore magna.
@@ -131,14 +167,15 @@
 									</div>
 									<div class="col-md-6">
 										<h6 class="fw-700">
-											Language
+											Business Analyst
 										</h6>
 										<p>
 											At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd
 										</p>
 									</div>
 								</div>
-								<a href="#" class="btn btn-maincolor">Find courses</a>
+								<!-- <button type="button" class="sign-btn-form" data-toggle="modal" data-target="#form2"><i class="fw-900 s-16 fa fa-sign-in" aria-hidden="true"></i>Sign Up</button> -->
+								<button style="margin-top: 18px;" type="button" class="btn btn-maincolor" data-toggle="modal" data-target="#form1"><i class="fs-16 fa fa-user" aria-hidden="true"></i> Login</button>
 							</div>
 						</div>
 					</div>
@@ -154,7 +191,7 @@
 									<i class="icon-m-faq" aria-hidden="true"></i>
 								</div>
 								<h6 class="fw-700">
-									<a href="single-course.html">General & FAQ</a>
+									<a href="single-course.html">Heading 1</a>
 								</h6>
 								<p>
 									Lorem ipsum dolor sit amet, contetur adipiscing diam
@@ -171,7 +208,7 @@
 									<i class="icon-m-distribution" aria-hidden="true"></i>
 								</div>
 								<h6 class="fw-700">
-									<a href="single-course.html">Distribution</a>
+									<a href="single-course.html">Heading 2</a>
 								</h6>
 
 								<p>
@@ -190,70 +227,11 @@
 								</div>
 
 								<h6 class="fw-700">
-									<a href="single-course.html">Outreach</a>
+									<a href="single-course.html">Heading 3</a>
 								</h6>
 
 								<p>
 									Nunc vehicula metus et massa tincidunt ultrices tincidunt
-								</p>
-
-
-							</div>
-							<div class="media-links">
-								<a class="abs-link" title="" href="team-single.html"></a>
-							</div>
-						</div><!-- .col-* -->
-						<div class="col-lg-4 col-sm-6">
-
-							<div class="icon-box text-center">
-								<div class="color-main icon-styled fs-77">
-									<i class="icon-m-analytics" aria-hidden="true"></i>
-								</div>
-
-								<h6 class="fw-700">
-									<a href="single-course.html">Analytics</a>
-								</h6>
-
-								<p>
-									Curabitur pretium elit mi, non sollicitudin massa ac
-								</p>
-							</div>
-							<div class="media-links">
-								<a class="abs-link" title="" href="team-single.html"></a>
-							</div>
-						</div><!-- .col-* -->
-						<div class="col-lg-4 col-sm-6">
-
-							<div class="icon-box text-center">
-								<div class="color-main icon-styled fs-77">
-									<i class="icon-m-payments" aria-hidden="true"></i>
-								</div>
-
-								<h6 class="fw-700">
-									<a href="single-course.html">Secure Payments</a>
-								</h6>
-
-								<p>
-									In porta urna risus, ut imperdiet nisl condimentum lobortis
-								</p>
-							</div>
-							<div class="media-links">
-								<a class="abs-link" title="" href="team-single.html"></a>
-							</div>
-						</div><!-- .col-* -->
-						<div class="col-lg-4 col-sm-6">
-
-							<div class="icon-box text-center">
-								<div class="color-main icon-styled fs-77">
-									<i class="icon-m-support" aria-hidden="true"></i>
-								</div>
-
-								<h6 class="fw-700">
-									<a href="single-course.html">Help Direct Line</a>
-								</h6>
-
-								<p>
-									Sed pellentesque pulvinar arcu ac congue. Sed sed est nec
 								</p>
 
 
@@ -273,7 +251,7 @@
 				<div class="container">
 					<div class="row">
 						<div class="col-12 text-center">
-							<h2>Colleagues</h2>
+							<h2>Our Students</h2>
 							<div class="divider-43 d-none d-md-block"></div>
 						</div>
 						<div class="col-md-12">
@@ -288,7 +266,7 @@
 									</div>
 									<div class="item-content">
 										<h6 class="title-content">
-											<a href="team-single.html">Jessica T. Stratton</a>
+											<a href="team-single.html">Name1</a>
 										</h6>
 										<p class="position">
 											Autor courses
@@ -302,14 +280,14 @@
 								</div>
 								<div class="vertical-item text-center">
 									<div class="item-media rounded">
-										<img src="images/team/2.jpg" alt="">
+										<img src="images/team/1.jpg" alt="">
 										<div class="media-links">
 											<a class="abs-link" title="" href="team-single.html"></a>
 										</div>
 									</div>
 									<div class="item-content">
 										<h6 class="title-content">
-											<a href="team-single.html">Donald J. White</a>
+											<a href="team-single.html">Name2</a>
 										</h6>
 										<p class="position">
 											Autor courses
@@ -325,14 +303,14 @@
 								</div>
 								<div class="vertical-item text-center">
 									<div class="item-media rounded">
-										<img src="images/team/3.jpg" alt="">
+										<img src="images/team/1.jpg" alt="">
 										<div class="media-links">
 											<a class="abs-link" title="" href="team-single.html"></a>
 										</div>
 									</div>
 									<div class="item-content">
 										<h6 class="title-content">
-											<a href="team-single.html">Brian P. Turner</a>
+											<a href="team-single.html">Name3</a>
 										</h6>
 
 										<p class="position">
@@ -349,14 +327,14 @@
 								</div>
 								<div class="vertical-item text-center">
 									<div class="item-media rounded">
-										<img src="images/team/4.jpg" alt="">
+										<img src="images/team/1.jpg" alt="">
 										<div class="media-links">
 											<a class="abs-link" title="" href="team-single.html"></a>
 										</div>
 									</div>
 									<div class="item-content">
 										<h6 class="title-content">
-											<a href="team-single.html">John B. Lewis</a>
+											<a href="team-single.html">Name4</a>
 										</h6>
 
 										<p class="position">
@@ -372,14 +350,14 @@
 								</div>
 								<div class="vertical-item text-center">
 									<div class="item-media rounded">
-										<img src="images/team/5.jpg" alt="">
+										<img src="images/team/1.jpg" alt="">
 										<div class="media-links">
 											<a class="abs-link" title="" href="team-single.html"></a>
 										</div>
 									</div>
 									<div class="item-content">
 										<h6 class="title-content">
-											<a href="team-single.html">Lani C. Duffy</a>
+											<a href="team-single.html">Name5</a>
 										</h6>
 
 										<p class="position">
@@ -401,14 +379,14 @@
 				</div>
 			</section>
 
-			<section id="section_testimonials" class="s-pt-60 s-pb-55 s-pt-lg-100 s-pb-lg-95 ls ms">
+			<!-- <section id="section_testimonials" class="s-pt-60 s-pb-55 s-pt-lg-100 s-pb-lg-95 ls ms">
 				<div class="container">
 					<div class="row">
 						<div class="col-md-12">
 							<div class="testimonials-slider owl-carousel" data-autoplay="true" data-loop="true" data-responsive-lg="1" data-responsive-md="1" data-responsive-sm="1" data-nav="false" data-dots="false">
 								<div class="quote-item">
 									<div class="quote-image">
-										<img src="images/team/testimonials_01.jpg" alt="">
+										<img src="images/team/1estimonials_01.jpg" alt="">
 									</div>
 									<p>
 										<em class="big">
@@ -453,13 +431,12 @@
 								</div>
 
 							</div><!-- .testimonials-slider -->
-
 						</div>
 					</div>
 				</div>
-			</section>
+			</section> -->
 
-			<section class="ls s-pt-60 s-pb-50 s-py-lg-100 partners-section">
+			<!-- <section class="ls s-pt-60 s-pb-50 s-py-lg-100 partners-section">
 				<div class="container">
 					<div class="row">
 						<div class="col-4 col-md-2">
@@ -494,7 +471,7 @@
 						</div>
 					</div>
 				</div>
-			</section>
+			</section> -->
 			
 			<hr class="hr-newsletter" />
 			<section class="ls s-pt-15 s-pb-10 s-pt-lg-25 s-pb-lg-20" id="courses">

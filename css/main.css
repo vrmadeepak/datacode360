@@ -18730,3 +18730,23 @@ ul.course-highlights{
 	width: 100%;
 	max-width: 300px; 	
 }
+
+li.job-active a {
+	color: orange !important
+}
+
+.header_absolute.s-parallax.title-jobs {
+	background-image: url("../img/parallax/title-jobs.jpg");
+}
+
+.header_absolute.s-parallax.title-bg3 {
+	background-image: url("../img/parallax/title-bg3.jpg");
+}
+
+.header_absolute.s-parallax.title-bg3 {
+	background-image: url("../img/parallax/title-bg3.jpg");
+}
+
+.header_absolute.s-parallax.title-bg3 {
+	background-image: url("../img/parallax/title-bg3.jpg");
+}
