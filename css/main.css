@@ -138,31 +138,31 @@ h6 {
 }
 
 h1 {
-	font-size: 72px;
+	/* font-size: 72px; */
 	margin-bottom: 0.46em;
 	margin-top: 1.13em;
 }
 
 h2 {
-	font-size: 54px;
+	/* font-size: 54px; */
 	margin-bottom: 0.66em;
 	margin-top: 1.5em;
 }
 
 h3 {
-	font-size: 42px;
+	/* font-size: 42px; */
 	margin-bottom: 0.86em;
 	margin-top: 2.1em;
 }
 
 h4 {
-	font-size: 36px;
+	/* font-size: 36px; */
 	margin-bottom: 1.1em;
 	margin-top: 2.45em;
 }
 
 h5 {
-	font-size: 30px;
+	/* font-size: 30px; */
 	font-weight: 500;
 	letter-spacing: 0;
 	margin-bottom: 1.3em;
@@ -170,7 +170,7 @@ h5 {
 }
 
 h6 {
-	font-size: 20px;
+	/* font-size: 20px; */
 	font-weight: 500;
 	letter-spacing: 0;
 	margin-bottom: 2em;
@@ -18749,4 +18749,24 @@ li.job-active a {
 
 .header_absolute.s-parallax.title-bg3 {
 	background-image: url("../img/parallax/title-bg3.jpg");
+}
+
+.text-underline {
+	text-decoration: underline;
+}
+
+@media(max-width:992px){
+	.hr-center{
+		margin-left:auto; 
+		margin-right: auto;
+	}
+}
+
+
+.card-hover-custom{
+	margin-bottom: 10px;
+	transition: box-shadow 0.5s;
+}
+.card-hover-custom:hover {
+	box-shadow: 5px 5px 10px rgb(150, 145, 145);
 }
