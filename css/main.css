@@ -18770,3 +18770,7 @@ li.job-active a {
 .card-hover-custom:hover {
 	box-shadow: 5px 5px 10px rgb(150, 145, 145);
 }
+
+.text-strike-through {
+	text-decoration: line-through;
+}
